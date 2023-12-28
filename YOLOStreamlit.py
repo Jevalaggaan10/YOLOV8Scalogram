@@ -1,15 +1,8 @@
 import streamlit as st
-import cv2
 import numpy as np
 from PIL import Image
 import time
-from tensorflow.keras.models import load_model
-import tensorflow_hub as hub
 from ultralytics import YOLO
-
-
-
-import os
 
 
 def classify_scalogram(image,modelname):
