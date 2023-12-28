@@ -1,7 +1,12 @@
 streamlit
+opencv-python
+opencv-contrib-python
 numpy
 Pillow
+tensorflow
 ultralytics
 wheel
 setuptools
 matplotlib
+pandas
+scipy
