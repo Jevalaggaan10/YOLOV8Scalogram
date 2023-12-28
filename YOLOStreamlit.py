@@ -20,7 +20,7 @@ def classify_scalogram(image,modelname):
     #print(probs)
 
     #print(names_dict[np.argmax(probs)])
-    return f"{names_dict[np.argmax(probs)]} {str(confidence_score * 100)}% (Confidence Score: {probs})"
+    return f"{names_dict[np.argmax(probs)]} {str(round(confidence_score * 100),2)}% (Confidence Score: {probs})"
 
 
 
