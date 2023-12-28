@@ -1,2 +1,3 @@
 libopencv-dev
 libatlas-base-dev gfortran
+libgl1
