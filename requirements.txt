@@ -1,0 +1,11 @@
+streamlit
+opencv-python
+numpy
+Pillow
+tensorflow
+ultralytics
+wheel
+setuptools
+matplotlib
+pandas
+scipy
